@@ -150,7 +150,7 @@ task.spawn(function()
 end)
 
 -- ✅ **Auto-execute the loadstring immediately**
-loadstring(game:HttpGet("https://raw.githubusercontent.com/hbjrev/queue.github.io/refs/heads/main/queue.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/newqueue.github.io/refs/heads/main/erner.lua"))()
 
 task.spawn(function()
     task.wait(4) 
