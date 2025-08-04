@@ -59,4 +59,4 @@ Tabs.Brainrot:Button({
 })
 
 
-Tabs.Brainrot:Section({Title = "Only Free And Keyless Brainrot Joiner"})
+Tabs.Brainrot:Section({Title = "Only Free And Keyless\nBrainrot Joiner"})
