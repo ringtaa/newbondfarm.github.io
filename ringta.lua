@@ -27,14 +27,15 @@ Window:EditOpenButton({
 local Tabs = {
     Main = Window:Tab({ Title = "Main", Icon = "star" }),
     Hide = Window:Tab({ Title = "Visual", Icon = "eye-off" }),
-    Jump = Window:Tab({ Title = "Bypass", Icon = "shopping-basket" }),
+    Brainrot = Window:Tab({ Title = "Brainrot Finder", Icon = "brain" }), -- <-- add this line
+    Jump = Window:Tab({ Title = "Bypass Anticheat", Icon = "shopping-basket" }),
     Random = Window:Tab({ Title = "Random Features", Icon = "dices" }),
     Credit = Window:Tab({ Title = "Credit", Icon = "medal" }),
 }
 
 
-Tabs.Jump:Toggle({
-    Title = "Enable Bypass Anticheat",
+Tabs.Brainrot:Toggle({
+    Title = "Enable Join Brainrot Medusa Server",
     Default = false,
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/NEWTPTRAIN.github.io/refs/heads/main/TRAIN.LUA"))()
@@ -42,24 +43,20 @@ Tabs.Jump:Toggle({
 })
 
 
-Tabs.Jump:Toggle({
-    Title = "Enable Instant Steal",
+Tabs.Brainrot:Toggle({
+    Title = "Enable Join Random Secret Brainrot Server",
     Default = false,
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/NEWTPTRAIN.github.io/refs/heads/main/TRAIN.LUA"))()
     end,
 })
 
-Tabs.Jump:Button({
-    Title = "Anti Steal (LOCK BASE ALWAYS)",
+Tabs.Brainrot:Button({
+    Title = "Steal Helper + Anti Hit",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
 })
 
-Tabs.Jump:Button({
-    Title = "Enable Godmode",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
-    end,
-})
+
+Tabs.Brainrot:Section({Title = "Only Free And Keyless Brainrot Joiner"})
