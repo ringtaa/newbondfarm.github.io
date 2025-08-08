@@ -35,7 +35,7 @@ local Tabs = {
 
 
 Tabs.Brainrot:Toggle({
-    Title = "Enable Join Brainrot Medusa Server",
+    Title = "Enable Max Speed Boost",
     Default = false,
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/NEWTPTRAIN.github.io/refs/heads/main/TRAIN.LUA"))()
@@ -44,7 +44,7 @@ Tabs.Brainrot:Toggle({
 
 
 Tabs.Brainrot:Toggle({
-    Title = "Enable Join Random Secret Brainrot Server",
+    Title = "Enable Permanent Invisible",
     Default = false,
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/NEWTPTRAIN.github.io/refs/heads/main/TRAIN.LUA"))()
@@ -52,11 +52,16 @@ Tabs.Brainrot:Toggle({
 })
 
 Tabs.Brainrot:Button({
-    Title = "Steal Helper + Anti Hit",
+    Title = "Pet Finder Secret Only",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
 })
 
 
-Tabs.Brainrot:Section({Title = "Only Free And Keyless\nBrainrot Joiner"})
+Tabs.Brainrot:Button({
+    Title = "Fly Bypass",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
+    end,
+})
