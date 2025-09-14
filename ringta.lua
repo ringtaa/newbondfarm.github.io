@@ -44,7 +44,7 @@ Tabs.Brainrot:Toggle({
 
 
 Tabs.Brainrot:Toggle({
-    Title = "Enable Permanent Invisible",
+    Title = "Invisible Stealer",
     Default = false,
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/NEWTPTRAIN.github.io/refs/heads/main/TRAIN.LUA"))()
@@ -52,7 +52,7 @@ Tabs.Brainrot:Toggle({
 })
 
 Tabs.Brainrot:Button({
-    Title = "Pet Finder Secret Only",
+    Title = "Pet Finder",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
